@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elixir - Bootstrap Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- The navbar section -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-dark.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-brand ms-lg-3">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero-section -->
+    <section class="hero text-center min-vh-100 d-flex align-items-center" id="hero" 
+    style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-1.jpg');
+           background-size: cover;
+           background-position: center;">
+    
+    <div class="container py-5">
+        <h1 class="text-light display-2 fw-bold text-uppercase">Welcome to Elixir</h1>
+        <p class="fw-bold text-light lead fs-3">We are a team of talented designers making websites with bootstrap</p>
+
+        <div class="buttons d-flex flex-md-row justify-content-center gap-3">
+            <a href="#" class="btn btn-brand px-4 py-2">Get Started</a>
+            <a href="#" class="btn2 btn2-brand px-4 py-2">Our Portfolio</a>
+        </div>
+    </div>
+</section>
+
+<!-- about-section -->
+<section class="about py-5 text-center" id="about">
+    <div class="container">
+        <h2 class="text-uppercase fw-bold text-dark display-4 underline">About Us</h2>
+        <p class="text-muted" style="letter-spacing: 2px;">
+            We love to craft digital experiences for brands rather than crap <br> 
+            and more lorem ipsums and do crazy skills.
+        </p>
+
+        <div class="row align-items-center text-md-start text-center">
+            <!-- Left Image -->
+            <div class="col-12 col-md-6 d-flex justify-content-evenly justify-content-md-start py-5">
+                <img src="images/about.jpg" alt="About Image" class="img-fluid rounded" style="max-width: 100%; height: auto; border-radius: 0;">
+            </div>
+
+            <!-- Right Text -->
+            <div class="col-12 col-md-6 justify-content-evenly">
+                <h3 class="fw-bold">About Elixir</h3>
+                <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Sit quo reiciendis ad.
+                </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="d-flex align-items-center p-4">
+                            <div class="icon me-3" style="font-size: 3rem;">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                
+                            <div class="text flex-grow-1">
+                                <h4 class="fw-bold">We are Awesome</h4>
+                                <p class="text-muted">Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-4">
+                            <div class="icon me-3" style="font-size: 3rem;">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                
+                            <div class="text flex-grow-1">
+                                <h4 class="fw-bold">We are Awesome</h4>
+                                <p class="text-muted">Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-4">
+                            <div class="icon me-3" style="font-size: 3rem;">
+                                <i class="fa-solid fa-bell"></i>
+                            </div>
+                
+                            <div class="text flex-grow-1">
+                                <h4 class="fw-bold">We are Awesome</h4>
+                                <p class="text-muted">Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <hr class="text-muted" style="margin-top: 80px;">
+</section>
+
+<!-- Services-section -->
+<section class="services py-5 text-center" id="services">
+    <h2 class="text-uppercase fw-bold text-dark display-4 underline">Awesome Services</h2>
+        <p class="text-muted" style="letter-spacing: 2px;">
+            We love to craft digital experiences for brands rather than crap <br> and more lorem ipsums and do crazy skills
+        </p>
+
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="service card p-4 text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-pen-nib"></i>
+                            </div>
+                            <h5 class="card-title fw-bold py-2">UX Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="service card p-4 text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-layer-group"></i>
+                            </div>
+                            <h5 class="card-title fw-bold py-2">UI Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="service card p-4 text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-ruler-combined"></i>
+                            </div>
+                            <h5 class="card-title fw-bold py-2">Logo Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="service card p-4 text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                            </div>
+                            <h5 class="card-title fw-bold py-2">Digital Marketing</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="service card p-4 text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h5 class="card-title fw-bold py-2">Machine Learning</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="service card p-4 text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <h5 class="card-title fw-bold py-2">Product Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+</section>
+
+<!-- min-report -->
+<div class="report text-center" style="background:linear-gradient(rgba(78, 87, 212, 0.5), rgba(78, 87, 212, 0.5)), url('images/counter.jpg'); background-size: cover; padding: 150px 0;">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h2>9,000+</h2>
+                <p class="fw-bold">Total Downloads</p>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h2>58K+</h2>
+                <p class="fw-bold">Trusted Clients</p>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h2>5M+</h2>
+                <p class="fw-bold">Themes Designed</p>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h2>100+</h2>
+                <p class="fw-bold">Team Members</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- our portfolio -->
+ <section class="portfolio py-5 text-center" id="portfolio">
+    <div class="container">
+        <h2 class="text-uppercase fw-bold text-dark display-4 underline">Our Portfolio</h2>
+        <p class="text-muted" style="letter-spacing: 2px;">
+            We love to craft digital experiences for brands rather than crap <br> 
+            and more lorem ipsums and do crazy skills.
+        </p>
+    </div>
+ </section>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
